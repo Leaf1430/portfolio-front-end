@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada Front-End</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="progress-bar" aria-hidden="true">
+        <div class="progress-bar__fill" id="progressBarFill"></div>
+    </div>
+
+    <header>
+        <h1>Como Tudo Começou</h1>
+
+        <nav>
+            <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <a class="nav1" href="index.html">Início</a>
+            <a class="nav1" href="#fotos">Galeria</a>
+            <a class="nav1" href="#container-sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="containerex">
+            <h2>Minhas expectativas</h2>
+            <p>Antes de começar no Front-End, confesso que ficava bem ansioso. Queria aprender logo a criar o visual dos sites, entender a fundo o HTML, CSS e JavaScript, e desvendar como a área funcionava. Até agora, tem sido uma experiência incrível e estou muito contente com a oportunidade e com a minha evolução.</p>
+        </div>
+
+        <div id="cards">
+            <div id="card1">
+                <h3>Primeiros Passos</h3>
+                <p>O interesse por desenvolvimento web sempre existiu, mas as primeiras tentativas por conta própria foram frustrantes e me fizeram parar. Faltava o caminho certo.</p>
+            </div>
+
+            <div id="card2">
+                <h3>Aprendizado Prático</h3>
+                <p>Com o curso, tudo mudou. As aulas dinâmicas e 100% práticas me deram o direcionamento que eu precisava para entender os conceitos e evoluir de verdade no Front-End.</p>
+            </div>
+
+            <div id="card3">
+                <h3>Próximo Nível</h3>
+                <p>Resultados de hoje: HTML5, CSS3 e Git dominados. Atualmente focado em dominar JavaScript e criar aplicações robustas com Angular. A evolução não para!</p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <section id="fotos">
+        <h2>Fotos durante o periodo do curso</h2>
+
+        <div class="fotos">
+            <div class="foto-card">
+                <div class="foto-card__header">
+                    <h3>Galeria do curso</h3>
+                </div>
+                <img id="fotoPrincipal" class="foto-principal" src="img/FotoCurso1.jpeg" alt="Foto do curso 1">
+                <button id="trocarFoto" class="trocar-btn" type="button">Próxima foto</button>
+                <p id="legendaFoto" class="foto-card__caption">Foto 1 de 4</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="container-sobre">
+        <div class="sobre-imagem">
+            <img src="img/teste1.png" alt="Rafael Vinícius da Rocha">
+        </div>
+
+        <div class="sobre-texto" id="sobre-texto">
+            <h2>Rafael Vinícius da Rocha</h2>
+            <p>Estudante de design e front end</p>
+            <p>Designer em formação e Desenvolvedor Front-End em constante evolução pelo SENAI. Unindo a sensibilidade estética do Design à lógica do código, busco ingressar na área de UI/UX para criar interfaces que não sejam apenas visualmente atraentes, mas também funcionais, intuitivas e otimizadas para o usuário. Tenho experiência prática em criação de layouts, edição e vetorização de imagens, além de domínio técnico em HTML5, CSS3 e Git. Atualmente, aprofundo meus conhecimentos em JavaScript e Angular para construir soluções digitais completas de ponta a ponta.</p>
+        </div>
+    </div>
+
+    <div id="futuro">
+        <h2>Onde Quero Chegar</h2>
+        <p>Olhando para frente, meu objetivo é mergulhar de cabeça no ecossistema de UI/UX. Quero aproveitar toda a bagagem teórica da faculdade e somá-la à prática do Front-End. O curso do SENAI está sendo essencial para mim, pois me ajuda a entender os bastidores do código e a desenhar uma carreira onde o design e a tecnologia andam lado a lado.</p>
+    </div>
+
+    <div class="page-spacer" aria-hidden="true"></div>
+
+    <div id="redes">
+        <h2>Acompanhe minha jornada!</h2>
+        <div class="redes-icons">
+            <div id="rede1">
+                <a href="https://www.behance.net/rafaelvinicius19" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a>
+            </div>
+            <div id="rede2">
+                <a href="https://www.linkedin.com/in/rafael-vin%C3%ADcius-da-rocha/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div id="rede3">
+                <a href="http://wa.me/5547996372102" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy;Rafael Vinícius da Rocha - SENAI</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
